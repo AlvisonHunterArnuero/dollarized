@@ -1,4 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
+
 export type MovieInfoProps = {
   data: DataChildren[];
 };
@@ -26,6 +27,7 @@ export interface CurrencyDataProviderProps {
 
 export type ChangeEvent = React.ChangeEvent<HTMLInputElement>;
 export type ButtonClickEvent = React.MouseEvent<HTMLButtonElement>;
+
 export type ErrorAlertProps = {
   alertErrorMessage: string | null;
 };

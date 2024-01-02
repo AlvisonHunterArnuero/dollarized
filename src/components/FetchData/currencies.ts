@@ -1,4 +1,4 @@
-export const currencies: Record<string, string> = {
+export const currencies = {
   AUD: "Australian Dollar",
   BGN: "Bulgarian Lev",
   BRL: "Brazilian Real",
@@ -30,4 +30,4 @@ export const currencies: Record<string, string> = {
   TRY: "Turkish Lira",
   USD: "United States Dollar",
   ZAR: "South African Rand",
-};
+} satisfies Record<string, string>;
